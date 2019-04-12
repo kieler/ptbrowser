@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="de.cau.cs.kieler.ptolemy.klighd.PtolemyEditorPart"
+            contributorClass="de.cau.cs.kieler.klighd.ui.parts.DiagramEditorPart$PrintActionContributor"
+            default="true"
+            extensions="moml"
+            icon="icons/PtolemyII16x16.png"
+            id="de.cau.cs.kieler.ptolemy.klighd.editor"
+            name="Ptolemy Model Viewer">
+      </editor>
+   </extension>
+   <extension
+         point="de.cau.cs.kieler.klighd.diagramSyntheses">
+      <diagramSynthesis
+            class="de.cau.cs.kieler.klighd.syntheses.GuiceBasedSynthesisFactory:de.cau.cs.kieler.ptolemy.klighd.PtolemyDiagramSynthesis"
+            id="de.cau.cs.kieler.ptolemy.klighd.PtolemyDiagramSynthesis">
+      </diagramSynthesis>
+   </extension>
+   <extension
+         point="de.cau.cs.kieler.klighd.extensions">
+      <styleModifier
+            class="de.cau.cs.kieler.ptolemy.klighd.transformation.util.PtolemyPortStyleModifier"
+            id="de.cau.cs.kieler.ptolemy.klighd.ptolemyPortStyleModifier">
+      </styleModifier>
+   </extension>
+
+</plugin>
