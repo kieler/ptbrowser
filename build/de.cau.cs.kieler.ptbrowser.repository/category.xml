@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+   <description name="OpenKieler (Nightly Builds)" url="http://rtsys.informatik.uni-kiel.de/~kieler/updatesite/nightly-openkieler/">
+      Update site for the OpenKieler nightly builds.
+   </description>
+
+   <!-- CATEGORY DEFINITIONS -->
+   <category-def name="ptbrowser" label="Ptolemy Model Browser">
+      <description>
+         OpenKieler components for browsing Ptolemy 2 models.
+      </description>
+   </category-def>
+
+   <!-- ptbrowser -->
+   <feature url="features/de.cau.cs.kieler.ptbrowser.0.46.0.qualifier.jar" id="de.cau.cs.kieler.ptbrowser.feature" version="0.46.0.qualifier">
+      <category name="ptbrowser"/>
+   </feature>
+   <feature url="features/de.cau.cs.kieler.ptbrowser.source_0.46.0.qualifier.jar" id="de.cau.cs.kieler.ptbrowser.feature.source" version="0.46.0.qualifier">
+      <category name="ptbrowser"/>
+   </feature>
+
+</site>

@@ -1,4 +1,4 @@
-package de.cau.cs.kieler.ptolemy.rcp;
+package de.cau.cs.kieler.ptbrowser.rcp;
 
 import java.lang.reflect.Field;
 
