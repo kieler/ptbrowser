@@ -4,234 +4,234 @@
    <extension
          point="org.eclipse.ui.perspectives">
       <perspective
-            class="de.cau.cs.kieler.ptolemy.rcp.PtolemyPerspective"
+            class="de.cau.cs.kieler.ptbrowser.rcp.PtolemyPerspective"
             icon="icons/PtolemyII.jpg"
-            id="de.cau.cs.kieler.ptolemy.rcp.perspective"
+            id="de.cau.cs.kieler.ptbrowser.rcp.perspective"
             name="Ptolemy Perspective">
       </perspective>
    </extension> 
    <extension
          point="org.eclipse.ui.activities">
       <activity
-            id="de.cau.cs.kieler.ptolemy.rcp.activity"
+            id="de.cau.cs.kieler.ptbrowser.rcp.activity"
             name="Hide Menus">
       </activity>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.edit\.text\.gotoLastEditPosition">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.navigate\.next">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.navigate\.previous">
       </activityPatternBinding>
       <!--activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.ide/org.eclipse.ui.openLocalFile">
       </activityPatternBinding-->
        <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.file\.close.*">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.file\.export">
       </activityPatternBinding>
        <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.file\.import">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.file\.restartWorkbench">
       </activityPatternBinding>
       
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.edit\.text\.actionSet\..*">
       </activityPatternBinding>
       
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.window\.showKeyAssist">
       </activityPatternBinding>
       <activityPatternBinding
-               activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+               activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
                pattern="org\.eclipse\.search.*">
          </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="de\.cau\.cs\.kieler\.core\.*">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="de\.cau\.cs\.kieler\.*">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.wizards\.import\.FileSystem">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.wizards\.import\.Preferences">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.internal\.ui\.importexport\.breakpoints\.WizardImportBreakpoints">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.import\.launchconfigurations">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.team\.ui/org\.eclipse\.team\.ui\.ProjectSetImportWizard">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.wizards\.import\.ExternalProject">
       </activityPatternBinding>
       <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.wizards\.import\.ZipFile">
       </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.jdt\.ui/org\.eclipse\.jdt\.ui\.JavaPerspective">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.jdt\.ui/org\.eclipse\.jdt\.ui\.JavaBrowsingPerspective">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.jdt\.ui/org\.eclipse\.jdt\.ui\.JavaHierarchyPerspective">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.ProblemView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.console\.ConsoleView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.team\.ui\.GenericHistoryView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.team\.sync\.views\.SynchronizeView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.search\.ui\.views\.SearchView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.ProgressView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.BookmarkView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.AllMarkersView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.PropertySheet">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="de\.cau\.cs\.kieler\.kiml\.ui/de\.cau\.cs\.kieler\.kiml\.ui\.command\.showLayoutView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.DebugView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.MemoryView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.ExpressionView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.VariableView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.BreakpointView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.RegisterView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.debug\.ui/org\.eclipse\.debug\.ui\.ModuleView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.console/org\.eclipse\.ui\.console\.ConsoleView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.views\.log/org\.eclipse\.pde\.runtime\.LogView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.help\.ui/org\.eclipse\.help\.ui\.HelpView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.team\.ui/org\.eclipse\.team\.ui\.GenericHistoryView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.team\.ui/org\.eclipse\.team\.sync\.views\.SynchronizeView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.gef/org\.eclipse\.gef\.ui\.palette_view">
        </activityPatternBinding>
         <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="de\.cau\.cs\.kieler\.kiml\.ui/de\.cau\.cs\.kieler\.kiml\.views\.layout">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.mylyn\.tasks\.ui/org\.eclipse\.mylyn\.tasks\.ui\.views\.tasks">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.TaskList">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.navigator\.resources/org\.eclipse\.ui\.navigator\.ProjectExplorer">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.cheatsheets/org\.eclipse\.ui\.cheatsheets\.views\.CheatSheetView">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.contentoutline\.ContentOutline">
        </activityPatternBinding>
        <activityPatternBinding
-             activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+             activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
              pattern="de\.cau\.cs\.kieler\.core\.ui/de\.cau\.cs\.kieler">
        </activityPatternBinding>
        <activityPatternBinding
-            activityId="de.cau.cs.kieler.ptolemy.rcp.activity"
+            activityId="de.cau.cs.kieler.ptbrowser.rcp.activity"
             pattern="org\.eclipse\.ui\.ide/org\.eclipse\.ui\.views\.ResourceNavigator">
       </activityPatternBinding>
    </extension>
@@ -251,7 +251,7 @@
          </property>
          <property
                name="defaultPerspectiveId"
-               value="de.cau.cs.kieler.ptolemy.rcp.perspective">
+               value="de.cau.cs.kieler.ptbrowser.rcp.perspective">
          </property>
          <property
                name="startupProgressRect"
@@ -290,7 +290,7 @@
    <extension
          point="org.eclipse.ui.perspectiveExtensions">
       <perspectiveExtension
-            targetID="de.cau.cs.kieler.ptolemy.rcp.perspective">
+            targetID="de.cau.cs.kieler.ptbrowser.rcp.perspective">
          <hiddenMenuItem
                id="*">
          </hiddenMenuItem>
@@ -299,7 +299,7 @@
    <extension
          point="org.eclipse.ui.startup">
       <startup
-            class="de.cau.cs.kieler.ptolemy.rcp.PtolemyRCPPlugin">
+            class="de.cau.cs.kieler.ptbrowser.rcp.PtolemyRCPPlugin">
       </startup>
    </extension>
    <extension
@@ -315,11 +315,11 @@
             allPopups="false"
             locationURI="menu:org.eclipse.ui.main.menu">
          <menu
-               id="de.cau.cs.kieler.ptolemy.rcp.view"
+               id="de.cau.cs.kieler.ptbrowser.rcp.view"
                label="View">
             <command
-                  commandId="de.cau.cs.kieler.ptolemy.rcp.zoomToFitCommand"
-                  id="de.cau.cs.kieler.ptolemy.rcp.zoomToFit"
+                  commandId="de.cau.cs.kieler.ptbrowser.rcp.zoomToFitCommand"
+                  id="de.cau.cs.kieler.ptbrowser.rcp.zoomToFit"
                   label="Zoom to Fit"
                   style="toggle">
             </command>
@@ -329,8 +329,8 @@
    <extension
          point="org.eclipse.ui.commands">
       <command
-            defaultHandler="de.cau.cs.kieler.ptolemy.rcp.ZoomToFitHandler"
-            id="de.cau.cs.kieler.ptolemy.rcp.zoomToFitCommand"
+            defaultHandler="de.cau.cs.kieler.ptbrowser.rcp.ZoomToFitHandler"
+            id="de.cau.cs.kieler.ptbrowser.rcp.zoomToFitCommand"
             name="ZoomToFit">
          <state
                class="org.eclipse.ui.handlers.RegistryToggleState:true"
