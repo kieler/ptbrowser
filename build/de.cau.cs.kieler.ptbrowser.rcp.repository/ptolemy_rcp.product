@@ -38,7 +38,6 @@ Copyright 2014 by Kiel University, Department of Computer Science, Real-Time and
       </win>
    </launcher>
 
-
    <vm>
    </vm>
 
@@ -135,14 +134,17 @@ This Agreement is governed by the laws of the State of New York and the intellec
          </text>
    </license>
 
+   <plugins>
+   </plugins>
+
    <features>
       <feature id="de.cau.cs.kieler.ptbrowser.feature" installMode="root"/>
+      <feature id="de.cau.cs.kieler.ptbrowser.product.feature" installMode="root"/>
       <feature id="de.cau.cs.kieler.klighd.feature" installMode="root"/>
       <feature id="org.ptolemy.feature" installMode="root"/>
       <feature id="org.eclipse.elk.feature" installMode="root"/>
       <feature id="org.eclipse.elk.graphviz.feature" installMode="root"/>
       <feature id="org.eclipse.elk.ui.feature" installMode="root"/>
-
       <feature id="org.eclipse.e4.rcp" installMode="root"/>
       <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
       <feature id="org.eclipse.ecf.core.ssl.feature" installMode="root"/>
@@ -177,7 +179,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <feature id="org.eclipse.platform" installMode="root"/>
       <feature id="org.eclipse.rcp" installMode="root"/>
       <feature id="org.eclipse.xtext.xbase.lib" installMode="root"/>
-
    </features>
 
    <configurations>

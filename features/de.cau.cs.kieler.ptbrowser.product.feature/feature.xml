@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="de.cau.cs.kieler.ptbrowser.feature"
-      label="KIELER Ptolemy Browser"
+      id="de.cau.cs.kieler.ptbrowser.product.feature"
+      label="KIELER Ptolemy Browser Product"
       version="0.46.0.qualifier"
       provider-name="Kiel University"
       plugin="de.cau.cs.kieler.ptbrowser.klighd">
@@ -218,18 +218,10 @@ litigation.
    </url>
 
    <requires>
-      <import plugin="org.apache.log4j"/>
-      <import feature="org.eclipse.emf" version="2.6.0" match="greaterOrEqual"/>
-      <import feature="org.ptolemy.feature" version="8.1.0" match="greaterOrEqual"/>
-      <import plugin="com.google.guava"/>
-      <import feature="de.cau.cs.kieler.klighd.feature"/>
-      <import feature="org.eclipse.elk.feature"/>
-      <import feature="org.eclipse.elk.graphviz.feature"/>
-      <import feature="org.eclipse.elk.ui.feature"/>
    </requires>
 
    <plugin
-         id="de.cau.cs.kieler.ptbrowser.klighd"
+         id="de.cau.cs.kieler.ptbrowser.rcp"
          download-size="0"
          install-size="0"
          version="0.0.0"

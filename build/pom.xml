@@ -5,6 +5,7 @@
   <groupId>de.cau.cs.kieler.ptbrowser</groupId>
   <artifactId>parent</artifactId>
   <version>0.46.0-SNAPSHOT</version>
+  <name>OpenKieler Ptolemy Browser</name>
   <packaging>pom</packaging>
   
   
@@ -40,6 +41,7 @@
         <module>de.cau.cs.kieler.openkieler.targetplatform</module>
         <module>../plugins/de.cau.cs.kieler.ptbrowser.klighd</module>
         <module>../features/de.cau.cs.kieler.ptbrowser.feature</module>
+        <module>../features/de.cau.cs.kieler.ptbrowser.product.feature</module>
         <module>../products/de.cau.cs.kieler.ptbrowser.rcp</module>
         <module>de.cau.cs.kieler.ptbrowser.repository</module>
         <module>de.cau.cs.kieler.ptbrowser.rcp.repository</module>

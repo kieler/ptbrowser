@@ -13,5 +13,6 @@
   <groupId>de.cau.cs.kieler.ptbrowser</groupId>
   <artifactId>de.cau.cs.kieler.ptbrowser.rcp</artifactId>
   <version>0.46.0-SNAPSHOT</version>
+  <name>OpenKieler Ptolemy Browser Branding Plug-In</name>
   <packaging>eclipse-plugin</packaging>
 </project>
