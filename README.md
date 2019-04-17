@@ -1,6 +1,8 @@
 # KIELER Ptolemy Browser
 
-A complex example for using [KLighD technology](https://rtsys.informatik.uni-kiel.de/confluence/x/swEF), the Ptolemy Browser project is about generating transient views of Ptolemy II models that are easy to browse through. [Ptolemy II](https://ptolemy.berkeley.edu/ptolemyII/index.htm) is an open source program developed at UC Berkeley for experimenting with actor-oriented modelling. Actors are graphical representations of components with a certain functionality that generate outputs as a function of the inputs they receive. To use the output of one actor as the input of another, actors are connected by links.
+The KIELER Ptolemy Browser generates transient views of [Ptolemy II](https://ptolemy.berkeley.edu/ptolemyII/index.htm) models that are easy to browse through. The Ptolemy Browser uses [KLighD technology](https://rtsys.informatik.uni-kiel.de/confluence/x/swEF) for visualization and [ELK](https://www.eclipse.org/elk/) for automatic layout.
+
+Ptolemy II is an open source program developed at UC Berkeley for experimenting with actor-oriented modelling. Actors are graphical representations of components with a certain functionality that generate outputs as a function of the inputs they receive. To use the output of one actor as the input of another, actors are connected by links.
 
 The Ptolemy Browser shows models like this:
 
@@ -9,6 +11,8 @@ The Ptolemy Browser shows models like this:
 In the original Ptolemy II editor, the same model might look like this:
 
 ![Ptolemy II screenshot](docs/ptolemy.png)
+
+Note how the Ptolemy Browser allows to look inside actors in the same window. In Ptolemy, the innards of an actor need to be opened inside a separate window.
 
 
 ## Download
@@ -30,6 +34,11 @@ However, Ptolemy models have some features that are not that common:
 * Ports are not restricted to be either input ports or output ports: they can be both. As a consequence, links are undirected and can transport data in both directions.
 * Models have a director that defines the model of computation used to execute the model. In fact, if an actor in turn has another model inside it, that model, too, has a director. One of the research goals of the Ptolemy project is to find out how different models of computation can be composed.
 * All edges are part of relations. A relation is a set of edges that are treated as a hyperedge: an edge that connects not two, but arbitrarily many ports.
+
+The key to the Ptolemy Browser is that visualizations are created on-demand as one browses through the Ptolemy Models. The project is based on research effort at Kiel University which has found its way into the following papers, among others:
+
+* Christian Schneider and Miro Spönemann and Reinhard von Hanxleden. [Just Model! – Putting Automatic Synthesis of Node-Link-Diagrams into Practice](https://rtsys.informatik.uni-kiel.de/~biblio/downloads/papers/vlhcc13.pdf). In Proceedings of the IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC ’13), page 75–82, San Jose, CA, USA, September 2013.
+* Christoph Daniel Schulze and Miro Spönemann and Reinhard von Hanxleden. [Drawing Layered Graphs with Port Constraints](https://rtsys.informatik.uni-kiel.de/~biblio/downloads/papers/jvlc13.pdf). Journal of Visual Languages and Computing, Special Issue on Diagram Aesthetics and Layout, 25(2):89–106, 2014.
 
 ## KLighD Visualization
 
