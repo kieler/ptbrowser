@@ -3,7 +3,7 @@
  *
  * http://rtsys.informatik.uni-kiel.de/kieler
  * 
- * Copyright 2013 by
+ * Copyright 2013-2022 by
  * + Kiel University
  *   + Department of Computer Science
  *     + Real-Time and Embedded Systems Group
@@ -367,7 +367,7 @@ class Ptolemy2KGraphVisualization {
     def private void addValueDisplayingNodeRendering(KNode node) {
         node.setProperty(CoreOptions::NODE_LABELS_PLACEMENT, EnumSet::of(
             NodeLabelPlacement::OUTSIDE, NodeLabelPlacement::H_LEFT, NodeLabelPlacement::V_TOP))
-        node.setProperty(CoreOptions::PORT_LABELS_PLACEMENT, PortLabelPlacement::OUTSIDE)
+        node.setProperty(CoreOptions::PORT_LABELS_PLACEMENT, EnumSet.of(PortLabelPlacement::OUTSIDE))
         node.setProperty(CoreOptions::PORT_CONSTRAINTS, PortConstraints::FIXED_ORDER)
         
         // Create the rendering
@@ -411,7 +411,7 @@ class Ptolemy2KGraphVisualization {
     def private void addRegularNodeRendering(KNode node) {
         node.setProperty(CoreOptions::NODE_LABELS_PLACEMENT, EnumSet::of(
             NodeLabelPlacement::OUTSIDE, NodeLabelPlacement::H_LEFT, NodeLabelPlacement::V_TOP))
-        node.setProperty(CoreOptions::PORT_LABELS_PLACEMENT, PortLabelPlacement::OUTSIDE)
+        node.setProperty(CoreOptions::PORT_LABELS_PLACEMENT, EnumSet.of(PortLabelPlacement::OUTSIDE))
         node.setProperty(CoreOptions::PORT_CONSTRAINTS, PortConstraints::FIXED_ORDER)
         
         // Some kinds of nodes require special treatment
